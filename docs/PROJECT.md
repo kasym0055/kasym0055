@@ -1,0 +1,72 @@
+# GitHub profile refresh
+
+Updated: 2026-11-01. Repository: https://github.com/kasym0055/kasym0055
+
+## Goal and scope
+
+Create a distinctive, professional GitHub profile inspired by the user's two screenshots. Make actual projects, personal contributions, technologies, Coursera credentials and LinkedIn easy to find. Work in the existing profile repository; no separate website or paid hosting is needed.
+
+## Confirmed decisions
+
+- User selected a dark portfolio with a blue accent from three directions: dark portfolio, monochrome, animated.
+- English was proposed as the profile language alongside that selection.
+- LinkedIn supplied by the user: https://www.linkedin.com/in/kasymbek-talasbek-7ba212378/
+- Include projects from the user's KDvibers organization.
+- Do not copy the examples, invent skills or credentials, or attribute a teammate's work to the user.
+- Work with one agent. Keep research and verification proportional to a README change.
+
+## Evidence collected
+
+Read through the GitHub connector and public GitHub API on 2026-11-01:
+
+| Source | Verified content | Personal attribution / caveat |
+| --- | --- | --- |
+| [Profile README](https://github.com/kasym0055/kasym0055/blob/main/README.md) | Default greeting only; cloned into this workspace | Original README blob: `2546fc0275041791579e1bcd3f5d0643697ba462` |
+| [FocusDuo](https://github.com/KDvibers/FocusDuo) | Shared focus sessions; Kotlin/Compose Desktop, Java/Spring Boot, PostgreSQL; Windows 0.1.0 release | `kasym0055` authored desktop MSI packaging commit `95e36d7e2c066152e538a72d0bb8f1501a556ece`; do not claim sole backend authorship |
+| [HackAtlas](https://github.com/KDvibers/HackAtlas) | Kotlin Multiplatform / Compose mobile hackathon catalogue and Java backend | `kasym0055` mobile commits include secure session client, registration links and native share; Android checked in project docs, iOS verification still pending |
+| [Forte Cash Audit](https://github.com/KDvibers/forte-cash-audit#team) | Team case project: video upload, local analysis and evidence reports | README explicitly attributes frontend, results UI, application backend and Funnel deployment to Kasymbek; analyzer belongs to Daniyar |
+| [Playlist_Maker2](https://github.com/kasym0055/Playlist_Maker2) | Kotlin Android project; default branch `dev` | No README; Gradle manifest checked. Do not infer full music features from its name |
+| [locus-hackathon](https://github.com/kasym0055/locus-hackathon) | TypeScript, Next.js, React, Redis dependencies | No README; default branch `feat/m1-vertical-slice`. Avoid featuring without a clear product summary |
+| [Wedding invitation](https://github.com/kasym0055/azamat-ayaulym-wedding) | HTML/CSS/JavaScript | Optional secondary work; no need to feature private event details |
+
+Repository language statistics are evidence of technology use in projects, not proof of individual proficiency. The older Legend repository includes PHP/Hack/CSS; dependency attribution has not been checked, so these statistics must not become automatic skill claims.
+
+## Open facts
+
+- Coursera profile / credential verification links have not been supplied.
+- LinkedIn connector search found no matching profile, and public fetch returned HTTP 999. The user's exact URL is available, but profile content and certifications were not retrieved.
+- Display name `Kasymbek Talasbek` is confirmed by the supplied HackAlem AI participation certificate. The broad developer title avoids inventing seniority or employment.
+- Confirm any additional languages directly with the user rather than filling the profile with arbitrary badges.
+
+## Milestones and handoff
+
+1. Research and choose direction — complete.
+2. Record selected direction — complete; see [design](superpowers/specs/2026-11-01-github-profile-design.md). Detailed layout decisions were made within the user's authorized request.
+3. Implement README, local artwork and credential section — complete for supplied evidence; Coursera remains pending.
+4. Check links, image rendering, mobile readability, light/dark compatibility and factual attribution — complete locally.
+5. Publish the finished profile update and verify the live result — pending.
+
+Next step: publish the verified update and confirm it on GitHub. Add Coursera credentials after receiving public accomplishment links or certificate files.
+
+## HackAlem AI certificate
+
+The user supplied a one-page image-based PDF and explicitly requested its inclusion. Visual inspection confirms: Kasymbek Talasbek; Certificate of Participation; HackAlem AI; Astana, Kazakhstan; November 1, 2026. The Guinness World Records statement belongs to the event and is attributed to the certificate, not presented as an individual prize or independent verification.
+
+- Original preserved at `certificates/hackalem-ai-2026-kasymbek-talasbek.pdf`; SHA-256 equality with the supplied file checked.
+- Preview at `assets/certificates/hackalem-ai-2026.png`, rendered using Poppler.
+- No external verification link was extracted from the PDF; no independent organizer verification was performed.
+
+## Validation record
+
+- All three original SVG files parsed as XML and contain no scripts or foreignObject content.
+- All six unique local README file references resolve; `git diff --check` passed.
+- GitHub's Markdown API rendered the README successfully, including supported HTML and the certificate disclosure.
+- Browser inspection of that rendered HTML passed in dark and light themes; all four images loaded.
+- At 390 px container width, content width equals client width (388 px): no horizontal overflow. Certificate disclosure opens and displays its preview.
+- Existing FocusDuo v0.1.0 release and MSI asset confirmed through the GitHub connector.
+- LinkedIn destination is the exact user-supplied URL. Its content could not be independently read.
+- Local preview uses approximate GitHub CSS; the final live GitHub layout still needs checking after publication.
+
+## Workflow decisions
+
+Use the existing fresh checkout and `feat/profile-refresh` branch. No application unit tests, dependencies, automation workflows or extra agents are needed for Markdown and artwork. Native Git publication is appropriate for this local change because it includes the original binary PDF and image preview; the GitHub connector was used for source and release verification.

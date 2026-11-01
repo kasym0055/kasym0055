@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Kasymbek Talasbek — Software Developer</title>
+<desc id="desc">An original navy and blue banner with connected geometric paths representing mobile, desktop and web development.</desc>
+<defs>
+  <linearGradient id="surface" x2="1200" y2="370" gradientUnits="userSpaceOnUse"><stop stop-color="#0B1427"/><stop offset="1" stop-color="#101E39"/></linearGradient>
+  <linearGradient id="blue"><stop stop-color="#91C4FF"/><stop offset="1" stop-color="#3675F5"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#234E93" stop-opacity=".42"/><stop offset="1" stop-color="#234E93" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#6894CC" opacity=".18"/></pattern>
+  <clipPath id="clip"><rect width="1200" height="370" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="370" fill="url(#surface)"/>
+  <rect x="700" width="500" height="370" fill="url(#grid)"/>
+  <ellipse cx="960" cy="185" rx="300" ry="230" fill="url(#glow)"/>
+  <path d="M0 1H1200" stroke="#658FE7" stroke-opacity=".5"/>
+  <path d="M56 54H85" stroke="#74AEFF" stroke-width="3"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="99" y="59" fill="#A5C9FF" font-size="14" font-weight="700" letter-spacing="3">BUILD WITH INTENT</text>
+    <text x="53" y="145" fill="#F2F6FF" font-size="65" font-weight="700" letter-spacing="-2">KASYMBEK</text>
+    <text x="53" y="215" fill="#F2F6FF" font-size="65" font-weight="700" letter-spacing="-2">TALASBEK<tspan fill="#79B1FF">.</tspan></text>
+    <text x="57" y="261" fill="#A7B9D4" font-size="20" letter-spacing=".4">Software Developer</text>
+    <path d="M56 300H625" stroke="#29405F"/>
+    <text x="57" y="331" fill="#8BA9CE" font-size="13" letter-spacing="2">MOBILE</text>
+    <text x="155" y="331" fill="#8BA9CE" font-size="13" letter-spacing="2">DESKTOP</text>
+    <text x="267" y="331" fill="#8BA9CE" font-size="13" letter-spacing="2">WEB</text>
+    <text x="625" y="331" text-anchor="end" fill="#6E91BF" font-size="12" letter-spacing="1">@kasym0055</text>
+    <text x="1140" y="335" text-anchor="end" fill="#658AB9" font-size="11" letter-spacing="2">CODE. CONNECT. CREATE.</text>
+  </g>
+  <circle cx="137" cy="326" r="2" fill="#4D8EEB"/><circle cx="249" cy="326" r="2" fill="#4D8EEB"/>
+  <g stroke="#315A91" stroke-width="1.2">
+    <path d="M702 285H746L780 251H850M920 101V59H1097M1040 239H1120V309H1198M760 130H800L832 162"/>
+    <circle cx="939" cy="190" r="142" stroke-opacity=".32"/>
+    <circle cx="939" cy="190" r="113" stroke-opacity=".35" stroke-dasharray="3 9"/>
+  </g>
+  <g transform="translate(858 72)">
+    <path d="M80 0 183 59V178L80 237-23 178V59Z" fill="#102B51" fill-opacity=".5" stroke="url(#blue)" stroke-width="1.5"/>
+    <path d="M80 33 154 76V161L80 204 6 161V76Z" fill="#12213B" stroke="#4071B1"/>
+    <path d="M6 76 80 118 154 76M80 118V204" stroke="#4D86D0" stroke-width="1.5"/>
+    <path d="m52 79 28-16 28 16-28 16Z" fill="#6BA8FF"/>
+    <path d="M52 79V111L80 127V95Z" fill="#3878DF"/>
+    <path d="M80 95 108 79V111L80 127Z" fill="#A5CCFF"/>
+    <path d="m32 151 21 12M32 164l21 12M108 163l21-12M108 176l21-12" stroke="#739CD3" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <rect x="741" y="86" width="56" height="56" rx="12" fill="#142847" stroke="#3C659D"/>
+  <path d="m763 104-7 10 7 10m13-20 7 10-7 10" stroke="#8DBEFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1070" y="145" width="54" height="76" rx="11" fill="#142847" stroke="#3C659D"/>
+  <path d="M1088 156H1106M1093 210H1101" stroke="#8DBEFF" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#80B5FF"><circle cx="746" cy="285" r="4"/><circle cx="1097" cy="59" r="4"/><circle cx="1120" cy="309" r="4"/></g>
+</g>
+</svg>

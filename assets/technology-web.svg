@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="94" viewBox="0 0 414 94" role="img" aria-label="JavaScript, HTML, CSS">
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+<g transform="translate(0)"><rect x="1" y="1" width="128" height="88" rx="12" fill="#101C31" stroke="#263E60"/><text x="65" y="41" fill="#F0D87B" font-size="26" font-weight="700">JS</text><text x="65" y="71" fill="#E5EDFB" font-size="14" font-weight="700">JavaScript</text></g>
+<g transform="translate(142)"><rect x="1" y="1" width="128" height="88" rx="12" fill="#101C31" stroke="#263E60"/><text x="65" y="41" fill="#FFA77B" font-size="26" font-weight="700">&lt;/&gt;</text><text x="65" y="71" fill="#E5EDFB" font-size="14" font-weight="700">HTML</text></g>
+<g transform="translate(284)"><rect x="1" y="1" width="128" height="88" rx="12" fill="#101C31" stroke="#263E60"/><text x="65" y="41" fill="#A5B6FF" font-size="26" font-weight="700">#</text><text x="65" y="71" fill="#E5EDFB" font-size="14" font-weight="700">CSS</text></g>
+</g></svg>

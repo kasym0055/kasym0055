@@ -1,6 +1,6 @@
 # Creative profile refresh
 
-Date: 2026-11-01. Status: implemented and locally verified; ready to publish.
+Date: 2026-11-01. Status: implemented, published and verified on the live GitHub profile.
 
 ## Direction
 
@@ -29,4 +29,4 @@ Constraints: Flat full-bleed rectangular banner, no rounded-corner outside frame
 
 ## Checks
 
-Passed: XML parsing and script checks for 10 SVGs; 12 local file references; GitHub Markdown render; 11 loaded images; dark/light visual review; 390 px container without overflow; disclosure interaction; a running 32-second CSS orbit animation with a changing transform. Reduced-motion rules are included; OS preferences were left unchanged. Live publication remains to be verified. Source attribution is in `assets/ATTRIBUTION.md`.
+Passed: XML parsing and script checks for 10 SVGs; 12 local file references; GitHub Markdown render; 11 loaded images; dark/light visual review; 390 px container without overflow; disclosure interaction; a running 32-second CSS orbit animation with a changing transform. Reduced-motion rules are included; OS preferences were left unchanged. Commit `2e3278e` was published to main, then the live profile was checked: the new hero and cards render, all 11 profile images load and the FocusDuo details open. Source attribution is in `assets/ATTRIBUTION.md`.

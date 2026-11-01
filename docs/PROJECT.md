@@ -46,7 +46,7 @@ Repository language statistics are evidence of technology use in projects, not p
 4. Check links, image rendering, mobile readability, light/dark compatibility and factual attribution — complete locally.
 5. Publish the profile update and verify the live result — complete for all supplied evidence.
 
-Next step: publish and verify the creative revision requested after the first release, then add Coursera credentials after receiving public accomplishment links or certificate files. The initial profile and HackAlem AI participation certificate are live at https://github.com/kasym0055 .
+Next step: add Coursera credentials after receiving public accomplishment links or certificate files. The creative revision and HackAlem AI participation certificate are live at https://github.com/kasym0055 .
 
 ## HackAlem AI certificate
 
@@ -78,4 +78,4 @@ The user found the first design boring and asked for more creativity. The revisi
 
 See [creative notes and final ImageGen prompt](superpowers/specs/2026-11-01-creative-refresh.md) and [asset attribution](../assets/ATTRIBUTION.md). The hero is stored locally in `assets/profile-hero-v2.png`; the original generated file and old SVG header remain preserved.
 
-Local checks: all 10 SVGs parse, 12 linked local files exist, GitHub Markdown rendering succeeds, all 11 images load, desktop dark/light and a 390 px container have been inspected. No narrow-container overflow (388 px client/content width). Project and certificate disclosures open correctly. The FocusDuo SVG reports the running 32-second CSS animation with a non-identity transform; reduced-motion CSS is present but the OS preference was not changed for testing. Corrected cover spacing and the achievement badge's polygon geometry during visual QA. Live verification follows publication.
+Checks: all 10 SVGs parse, 12 linked local files exist, GitHub Markdown rendering succeeds, all 11 images load, desktop dark/light and a 390 px container have been inspected. No narrow-container overflow (388 px client/content width). Project and certificate disclosures open correctly. The FocusDuo SVG reports a 32-second CSS animation, with different transforms observed in two reads; reduced-motion CSS is present but the OS preference was not changed for testing. Corrected cover spacing and the achievement badge's polygon geometry during visual QA. Published in commit `2e3278e`; the live GitHub profile shows the new hero and project cards, all 11 profile images loaded, and the FocusDuo disclosure exposes the expected content.

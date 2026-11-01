@@ -1,0 +1,6 @@
+# Visual assets
+
+- `profile-hero-v2.png`: original illustration generated with the built-in ImageGen tool for this profile, 2026-11-01. The final prompt is recorded in [the creative refresh notes](../docs/superpowers/specs/2026-11-01-creative-refresh.md). This is conceptual artwork, not a photograph of the developer's real workspace.
+- Project covers, build-flow strip, contact buttons and HackAlem badge: original SVG artwork. Project covers are conceptual illustrations, not application screenshots.
+- Language symbols in `technology-languages.svg` and `technology-web.svg`: [Simple Icons](https://github.com/simple-icons/simple-icons), files `icons/kotlin.svg`, `python.svg`, `typescript.svg`, `javascript.svg`, `html5.svg` and `css.svg`, retrieved 2026-11-01. Paths are embedded with colors adapted to the portfolio. [CC0 1.0](licenses/simple-icons-CC0.md); brand trademarks belong to their respective owners.
+- `certificates/hackalem-ai-2026.png`: unchanged visual rendering of the user-supplied participation certificate; the original PDF remains in the repository's `certificates/` directory.

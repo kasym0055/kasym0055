@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="74" viewBox="0 0 1200 74" fill="none" role="img" aria-label="From idea to interface, API and release">
+<title>From idea to interface, API and release</title><style>
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes travel{to{stroke-dashoffset:-96}}
+@keyframes scan{0%,100%{transform:translateX(0)}50%{transform:translateX(250px)}}
+.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 32s linear infinite}
+.pulse{animation:breathe 5s ease-in-out infinite}
+.flow{animation:travel 8s linear infinite}
+.scan{animation:scan 7s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.orbit,.pulse,.flow,.scan{animation:none!important}}
+</style>
+<defs><linearGradient id="bg" x2="1200" y2="74" gradientUnits="userSpaceOnUse"><stop stop-color="#0B1526"/><stop offset="1" stop-color="#122941"/></linearGradient><radialGradient id="light"><stop stop-color="#6DB6FF" stop-opacity=".15"/><stop offset="1" stop-color="#6DB6FF" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="1198" height="72" rx="18" fill="url(#bg)" stroke="#294460"/>
+<ellipse cx="985" cy="37.0" rx="210" ry="37.0" fill="url(#light)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<path d="M78 37H1122" stroke="#284262" stroke-width="2"/>
+<path class="flow" d="M78 37H1122" stroke="#5DABFF" stroke-width="2" stroke-dasharray="4 44"/>
+<g fill="#102036" stroke="#3A6087"><rect x="45" y="17" width="160" height="40" rx="20"/><rect x="335" y="17" width="190" height="40" rx="20"/><rect x="665" y="17" width="140" height="40" rx="20"/><rect x="985" y="17" width="170" height="40" rx="20"/></g>
+<g fill="#B5D9FF" font-size="15" letter-spacing="2" text-anchor="middle"><text x="125" y="43">IDEA</text><text x="430" y="43">INTERFACE</text><text x="735" y="43">API</text><text x="1070" y="43">RELEASE</text></g>
+</g></svg>

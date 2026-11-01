@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" fill="none" role="img" aria-label="FocusDuo — shared focus sessions; Windows release v0.1.0">
+<title>FocusDuo — shared focus sessions; Windows release v0.1.0</title><style>
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes travel{to{stroke-dashoffset:-96}}
+@keyframes scan{0%,100%{transform:translateX(0)}50%{transform:translateX(250px)}}
+.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 32s linear infinite}
+.pulse{animation:breathe 5s ease-in-out infinite}
+.flow{animation:travel 8s linear infinite}
+.scan{animation:scan 7s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.orbit,.pulse,.flow,.scan{animation:none!important}}
+</style>
+<defs><linearGradient id="bg" x2="1200" y2="270" gradientUnits="userSpaceOnUse"><stop stop-color="#0B1526"/><stop offset="1" stop-color="#122941"/></linearGradient><radialGradient id="light"><stop stop-color="#83E6C9" stop-opacity=".15"/><stop offset="1" stop-color="#83E6C9" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="1198" height="268" rx="18" fill="url(#bg)" stroke="#294460"/>
+<ellipse cx="985" cy="135.0" rx="210" ry="135.0" fill="url(#light)"/>
+<g font-family="Arial, Helvetica, sans-serif"><text x="44" y="46" fill="#83E6C9" font-size="15" letter-spacing="2.5">01 / DESKTOP</text>
+<text x="42" y="116" fill="#F0F6FF" font-size="52" font-weight="700" letter-spacing="-1.5">FocusDuo</text>
+<text x="44" y="157" fill="#ADBED4" font-size="23">Two people. One rhythm.</text>
+<circle cx="50" cy="220" r="5" fill="#83E6C9"/>
+<text x="66" y="226" fill="#83E6C9" font-size="16" letter-spacing="1.4">WINDOWS RELEASE / v0.1.0</text>
+<path d="M795 140H1098" stroke="#3F756F" stroke-width="2" stroke-dasharray="4 8"/>
+<circle cx="1048" cy="130" r="65" fill="#122D36" stroke="#39746A"/>
+<circle cx="1048" cy="130" r="49" stroke="#4D9F8F" stroke-dasharray="3 8"/>
+<path d="m1034 130 10 10 20-23" stroke="#83E6C9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="888" cy="130" r="91" fill="#102631" stroke="#264B50"/>
+<circle class="orbit" cx="888" cy="130" r="79" stroke="#83E6C9" stroke-width="4" stroke-dasharray="350 146" stroke-linecap="round"/>
+<text x="888" y="139" text-anchor="middle" fill="#D9FFF5" font-size="37" font-weight="700">25:00</text>
+<text x="888" y="162" text-anchor="middle" fill="#6EA89B" font-size="11" letter-spacing="3">FOCUS</text>
+<text x="1048" y="222" text-anchor="middle" fill="#86B4AA" font-size="13" letter-spacing="2">TOGETHER</text>
+</g></svg>

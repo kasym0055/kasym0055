@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" fill="none" role="img" aria-label="Forte Cash Audit — video analysis reports; team project for a ForteBank case">
+<title>Forte Cash Audit — video analysis reports; team project for a ForteBank case</title><style>
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes travel{to{stroke-dashoffset:-96}}
+@keyframes scan{0%,100%{transform:translateX(0)}50%{transform:translateX(250px)}}
+.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 32s linear infinite}
+.pulse{animation:breathe 5s ease-in-out infinite}
+.flow{animation:travel 8s linear infinite}
+.scan{animation:scan 7s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.orbit,.pulse,.flow,.scan{animation:none!important}}
+</style>
+<defs><linearGradient id="bg" x2="1200" y2="270" gradientUnits="userSpaceOnUse"><stop stop-color="#0B1526"/><stop offset="1" stop-color="#122941"/></linearGradient><radialGradient id="light"><stop stop-color="#8AD9F0" stop-opacity=".15"/><stop offset="1" stop-color="#8AD9F0" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="1198" height="268" rx="18" fill="url(#bg)" stroke="#294460"/>
+<ellipse cx="985" cy="135.0" rx="210" ry="135.0" fill="url(#light)"/>
+<g font-family="Arial, Helvetica, sans-serif"><text x="44" y="46" fill="#8AD9F0" font-size="15" letter-spacing="2.5">03 / WEB + API</text>
+<text x="42" y="116" fill="#F0F6FF" font-size="52" font-weight="700" letter-spacing="-1.5">Forte Cash Audit</text>
+<text x="44" y="157" fill="#ADBED4" font-size="23">Video in. Evidence out.</text>
+<circle cx="50" cy="220" r="5" fill="#8AD9F0"/>
+<text x="66" y="226" fill="#8AD9F0" font-size="16" letter-spacing="1.4">TEAM PROJECT / FORTEBANK CASE</text>
+<rect x="762" y="64" width="145" height="108" rx="10" fill="#122A3C" stroke="#477B99"/>
+<rect x="852" y="43" width="145" height="108" rx="10" fill="#153447" stroke="#5799B1"/>
+<rect x="942" y="65" width="145" height="108" rx="10" fill="#153447" stroke="#82C9E2"/>
+<path d="m795 135 31-39 36 39m23-19 34-40 41 40m8 17 30-39 39 39" stroke="#376C89" stroke-width="2"/>
+<rect x="979" y="90" width="49" height="48" rx="4" stroke="#8AD9F0" stroke-width="2" stroke-dasharray="5 3"/>
+<path d="M769 211H1103" stroke="#365C79" stroke-width="3"/>
+<g fill="#8AD9F0"><circle cx="797" cy="211" r="6"/><circle cx="938" cy="211" r="6"/><circle cx="1075" cy="211" r="6"/></g>
+<path class="scan" d="M788 191V231" stroke="#D3F6FF" stroke-width="3"/>
+<text x="938" y="248" text-anchor="middle" fill="#7BAFC2" font-size="12" letter-spacing="2">UPLOAD / ANALYZE / REVIEW</text>
+</g></svg>

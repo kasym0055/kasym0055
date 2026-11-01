@@ -33,20 +33,20 @@ Repository language statistics are evidence of technology use in projects, not p
 
 ## Open facts
 
-- Coursera profile / credential verification links have not been supplied.
+- Coursera: 52 distinct certificate-issued confirmations found through the connected Gmail account. The user supplied a public share URL for one certificate; its canonical verification page, learner, course, provider and date have been checked. Public links for the other 51 courses remain unavailable.
 - LinkedIn connector search found no matching profile, and public fetch returned HTTP 999. The user's exact URL is available, but profile content and certifications were not retrieved.
 - Display name `Kasymbek Talasbek` is confirmed by the supplied HackAlem AI participation certificate. The broad developer title avoids inventing seniority or employment.
-- Confirm any additional languages directly with the user rather than filling the profile with arbitrary badges.
+- Java was explicitly confirmed by the user's request to add it to the toolkit; additional languages still require evidence or user confirmation.
 
 ## Milestones and handoff
 
 1. Research and choose direction — complete.
 2. Record selected direction — complete; see [design](superpowers/specs/2026-11-01-github-profile-design.md). Detailed layout decisions were made within the user's authorized request.
-3. Implement README, local artwork and credential section — complete for supplied evidence; Coursera remains pending.
+3. Implement README, local artwork and credential section — complete for available evidence, including the 52-course Coursera catalogue and one public credential.
 4. Check links, image rendering, mobile readability, light/dark compatibility and factual attribution — complete locally.
 5. Publish the profile update and verify the live result — complete for all supplied evidence.
 
-Next step: add Coursera credentials after receiving public accomplishment links or certificate files. The creative revision and HackAlem AI participation certificate are live at https://github.com/kasym0055 .
+Next step: attach public verification links for the remaining 51 Coursera courses when supplied. Do not replace them with private dashboard or email tracking URLs.
 
 ## HackAlem AI certificate
 
@@ -79,3 +79,13 @@ The user found the first design boring and asked for more creativity. The revisi
 See [creative notes and final ImageGen prompt](superpowers/specs/2026-11-01-creative-refresh.md) and [asset attribution](../assets/ATTRIBUTION.md). The hero is stored locally in `assets/profile-hero-v2.png`; the original generated file and old SVG header remain preserved.
 
 Checks: all 10 SVGs parse, 12 linked local files exist, GitHub Markdown rendering succeeds, all 11 images load, desktop dark/light and a 390 px container have been inspected. No narrow-container overflow (388 px client/content width). Project and certificate disclosures open correctly. The FocusDuo SVG reports a 32-second CSS animation, with different transforms observed in two reads; reduced-motion CSS is present but the OS preference was not changed for testing. Corrected cover spacing and the achievement badge's polygon geometry during visual QA. Published in commit `2e3278e`; the live GitHub profile shows the new hero and project cards, all 11 profile images loaded, and the FocusDuo disclosure exposes the expected content.
+
+## Java and Coursera follow-up
+
+The user requested Java in the toolkit and asked about Coursera. Seven individually wrapping local SVG tiles now include Java, using the Devicon symbol with its MIT attribution. The six existing language paths are preserved.
+
+The connected Gmail account contains certificate-issued confirmations for 52 distinct courses. Only course titles and providers were extracted into the public catalogue; message content, addresses, message IDs and tracking URLs are not published. The email buttons redirect to the generic private accomplishments area. A Drive search returned no certificate files.
+
+The user then supplied `https://coursera.org/share/b976463a402c2690168959fda1879397`. It resolves to [credential RVE17IID343O](https://www.coursera.org/account/accomplishments/verify/RVE17IID343O), confirming **Kasymbek Talasbek**, **Driving Growth, Leadership, and Continuous Improvement**, **John Wiley & Sons**, **October 31, 2026**. The original public JPEG is stored locally; README includes the verification link and a collapsible preview. The full catalogue accurately distinguishes course certificates from the Cisco CCNA exam credential and explains the unavailable verification links for other courses.
+
+Validation: all eight new SVGs parse and have no executable content; seven language tiles and the Coursera card were rasterized with Sharp and visually inspected. The public certificate image was inspected. Both README files rendered successfully through GitHub's Markdown API; all local references resolve; the catalogue has exactly 52 course rows; `git diff --check` passed. Full browser/mobile reinspection is unavailable because local browser use is disabled in Work settings.

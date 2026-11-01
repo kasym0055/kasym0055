@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Coursera — 52 course certificates</title>
+  <desc id="desc">Continuous learning in software design, Java, testing and security. Browse the full course catalogue.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111F37"/><stop offset="1" stop-color="#0C1423"/></linearGradient></defs>
+  <rect x="1" y="1" width="1198" height="218" rx="22" fill="url(#bg)" stroke="#294460" stroke-width="2"/>
+  <path d="M760 1v218M972 1v218" stroke="#203750"/>
+  <path d="M787 48h47v18h48v18h48M787 173h47v-18h48v-18h48" fill="none" stroke="#345985" stroke-width="2"/>
+  <circle cx="787" cy="48" r="4" fill="#6BAAFF"/><circle cx="930" cy="137" r="4" fill="#63DCCB"/>
+  <g fill="#E5EDFB" font-family="Arial,Helvetica,sans-serif">
+    <text x="42" y="48" fill="#7EB8FF" font-size="17" font-weight="700" letter-spacing="3">CONTINUOUS LEARNING</text>
+    <text x="40" y="109" font-size="50" font-weight="700">Coursera</text>
+    <text x="42" y="151" font-size="23" fill="#B7C9E2">Software design · Java · Testing · Security</text>
+    <text x="42" y="191" font-size="19" fill="#7EB8FF">Explore the course catalogue ↗</text>
+    <text x="1078" y="112" text-anchor="middle" font-size="70" font-weight="700" fill="#8BBFFF">52</text>
+    <text x="1078" y="149" text-anchor="middle" font-size="18" font-weight="700" letter-spacing="1">COURSE</text>
+    <text x="1078" y="176" text-anchor="middle" font-size="18" font-weight="700" letter-spacing="1">CERTIFICATES</text>
+  </g>
+  <g transform="translate(842 94)" stroke="#83B8FF" stroke-width="3" fill="#172B49">
+    <path d="M0 0h46v57H0z"/><path d="M10 13h26M10 23h26M10 33h14" fill="none"/>
+    <circle cx="40" cy="52" r="15" fill="#183E50" stroke="#63DCCB"/><path d="m33 52 5 5 10-11" fill="none" stroke="#63DCCB"/>
+  </g>
+</svg>

@@ -87,8 +87,13 @@ I’m **Kasymbek Talasbek**. With **[KDvibers](https://github.com/KDvibers)**, I
 ## My toolkit
 
 <p>
-  <img src="assets/technology-languages.svg" width="410" alt="Kotlin, Python and TypeScript">
-  <img src="assets/technology-web.svg" width="410" alt="JavaScript, HTML and CSS">
+  <img src="assets/toolkit/kotlin.svg" width="116" alt="Kotlin">
+  <img src="assets/toolkit/java.svg" width="116" alt="Java">
+  <img src="assets/toolkit/python.svg" width="116" alt="Python">
+  <img src="assets/toolkit/typescript.svg" width="116" alt="TypeScript">
+  <img src="assets/toolkit/javascript.svg" width="116" alt="JavaScript">
+  <img src="assets/toolkit/html.svg" width="116" alt="HTML">
+  <img src="assets/toolkit/css.svg" width="116" alt="CSS">
 </p>
 
 **Mobile &amp; desktop** &nbsp; Android · Compose · Kotlin Multiplatform · Ktor<br>
@@ -120,7 +125,34 @@ The participation certificate records the event’s Guinness World Records title
 
 </details>
 
-<!-- Add Coursera credentials only with exact course names, issuers and public verification links. -->
+### Coursera
+
+<p><a href="certificates/README.md">
+  <img src="assets/coursera-learning.svg" width="100%" alt="Coursera — 52 course certificates. Software design, Java, testing and security. Browse the full catalogue.">
+</a></p>
+
+**[Driving Growth, Leadership, and Continuous Improvement ↗](https://www.coursera.org/account/accomplishments/verify/RVE17IID343O)**<br>
+John Wiley &amp; Sons · October 31, 2026 · [Verify certificate](https://www.coursera.org/account/accomplishments/verify/RVE17IID343O)
+
+<details>
+<summary>View the Coursera certificate</summary>
+
+<a href="https://www.coursera.org/account/accomplishments/verify/RVE17IID343O">
+  <img src="assets/certificates/coursera-growth-leadership.jpg" width="840" alt="Coursera certificate issued to Kasymbek Talasbek for Driving Growth, Leadership, and Continuous Improvement, by John Wiley &amp; Sons, October 31, 2026.">
+</a>
+
+</details>
+
+<br>
+
+| Selected course certificates | Provider |
+| --- | --- |
+| Software Architecture · Design Patterns · Object-Oriented Design | University of Alberta |
+| Mastering Java and Advanced Tools for Selenium Automation | Packt |
+| Apply API Testing Fundamentals Using Postman | EDUCBA |
+| Database Essentials and Vulnerabilities | IBM |
+
+[Explore all 52 course certificates ↗](certificates/README.md)
 
 <br>
 

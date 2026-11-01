@@ -1,6 +1,6 @@
 # GitHub profile design
 
-Date: 2026-11-01. Status: implementing the direction selected by the user; detailed layout and copy are the agent's proposals within the authorized profile refresh.
+Date: 2026-11-01. Status: implemented and published in the direction selected by the user. Detailed layout and copy were the agent's decisions within the authorized profile refresh.
 
 ## Intent
 
@@ -43,4 +43,4 @@ All use GitHub Markdown, a small amount of supported HTML and repository-owned S
 
 The README should render cleanly on desktop and narrow screens, have working links and images, and accurately describe each project. Validate original assets and GitHub-compatible rendering; do not run unrelated application tests.
 
-Needed: Coursera credential links. Name and title above are visible proposals that the user can correct. The selected direction is agreed; proceed with implementation under the original request. Live publication remains pending verification.
+Remaining input: Coursera credential links or certificate files. The supplied HackAlem AI participation certificate confirms the display name and is included with its original PDF and an expandable image preview. Publication and live rendering have been verified; see `docs/PROJECT.md` for the evidence and handoff.

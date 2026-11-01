@@ -29,8 +29,6 @@ I'm **Kasymbek Talasbek**, a developer working with **Kotlin, Python and the Typ
 
 I enjoy the work between a promising idea and a usable application: connecting screens to real data, handling application state, integrating APIs and preparing software for people to run.
 
-<a id="selected-work"></a>
-
 ## Selected work
 
 ### 01 &nbsp; [FocusDuo](https://github.com/KDvibers/FocusDuo)

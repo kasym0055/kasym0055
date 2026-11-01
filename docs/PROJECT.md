@@ -44,9 +44,9 @@ Repository language statistics are evidence of technology use in projects, not p
 2. Record selected direction — complete; see [design](superpowers/specs/2026-11-01-github-profile-design.md). Detailed layout decisions were made within the user's authorized request.
 3. Implement README, local artwork and credential section — complete for supplied evidence; Coursera remains pending.
 4. Check links, image rendering, mobile readability, light/dark compatibility and factual attribution — complete locally.
-5. Publish the finished profile update and verify the live result — pending.
+5. Publish the profile update and verify the live result — complete for all supplied evidence.
 
-Next step: publish the verified update and confirm it on GitHub. Add Coursera credentials after receiving public accomplishment links or certificate files.
+Next step: add Coursera credentials after receiving public accomplishment links or certificate files. The profile refresh and HackAlem AI participation certificate are live at https://github.com/kasym0055 .
 
 ## HackAlem AI certificate
 
@@ -65,7 +65,8 @@ The user supplied a one-page image-based PDF and explicitly requested its inclus
 - At 390 px container width, content width equals client width (388 px): no horizontal overflow. Certificate disclosure opens and displays its preview.
 - Existing FocusDuo v0.1.0 release and MSI asset confirmed through the GitHub connector.
 - LinkedIn destination is the exact user-supplied URL. Its content could not be independently read.
-- Local preview uses approximate GitHub CSS; the final live GitHub layout still needs checking after publication.
+- Local preview uses approximate GitHub CSS. After publishing commit `d7f3c98`, the actual GitHub profile was inspected in the browser: all four images loaded, the credentials navigation reached its target, and the disclosure displayed the certificate correctly.
+- The original binary PDF and PNG preview are present in the published repository. The final cleanup removes a redundant custom anchor where GitHub already generates a heading anchor.
 
 ## Workflow decisions
 

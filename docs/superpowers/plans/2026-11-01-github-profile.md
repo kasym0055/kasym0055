@@ -41,7 +41,7 @@ Files: `README.md`, `assets/profile-header.svg`, `assets/section-*.svg`, `.gitig
 - [x] Check project sources and the existing FocusDuo release using read-only requests; preserve the supplied LinkedIn URL and record its access limitation.
 - [x] Render through GitHub Markdown, inspect desktop dark/light and a narrow container; repair clipping or broken assets.
 - [x] Update `docs/PROJECT.md` with validation results and remaining limitations.
-- [ ] Publish the verified files as one profile update using native Git for binary artifacts, preserving any newer remote work.
-- [ ] Verify the remote README and assets and synchronize the local checkout.
+- [x] Publish the verified files as one profile update using native Git for binary artifacts, preserving any newer remote work.
+- [x] Verify the live README and assets. Record the publication result in a documentation follow-up commit and keep the working branch synchronized with the remote.
 
 No application unit tests are needed: this change is documentation and artwork. Visual and link validation exercise the actual failure modes.

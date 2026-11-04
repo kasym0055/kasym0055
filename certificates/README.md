@@ -1,26 +1,18 @@
 # Coursera certificates
 
-52 course certificates earned by **Kasymbek Talasbek**, covering software engineering, Java and testing, networks and security, and business.
+These are the 52 courses I've completed on Coursera, grouped by subject.
 
-[← Back to the GitHub profile](../README.md#hackathons--credentials)
+[Back to my GitHub profile](https://github.com/kasym0055#hackathons-and-courses)
 
 ## Public certificate
 
-**[Driving Growth, Leadership, and Continuous Improvement](https://www.coursera.org/account/accomplishments/verify/RVE17IID343O)** — John Wiley & Sons · October 31, 2026<br>
-Awarded to **Kasymbek Talasbek**. [Verify on Coursera ↗](https://www.coursera.org/account/accomplishments/verify/RVE17IID343O)
+**[Driving Growth, Leadership, and Continuous Improvement](https://www.coursera.org/account/accomplishments/verify/RVE17IID343O)** — John Wiley & Sons, October 31, 2026.
 
 <a href="https://www.coursera.org/account/accomplishments/verify/RVE17IID343O"><img src="../assets/certificates/coursera-growth-leadership.jpg" width="840" alt="Coursera certificate for Driving Growth, Leadership, and Continuous Improvement"></a>
 
-## Software engineering highlights
+## Course list
 
-- **Software Architecture**, **Design Patterns** and **Object-Oriented Design** — University of Alberta
-- **Mastering Java and Advanced Tools for Selenium Automation** — Packt
-- **Apply API Testing Fundamentals Using Postman** — EDUCBA
-- **Database Essentials and Vulnerabilities** — IBM
-
-## Full catalogue
-
-Course titles and providers are transcribed from Coursera certificate-issued confirmations. The linked certificate above can be verified publicly; verification links for the remaining courses are not yet available in this catalogue. These are course certificates; a course title containing “CCNA” does not represent the Cisco CCNA certification.
+The Wiley certificate above has a public verification link. The other 51 courses are listed by title and provider.
 
 ### Software design & delivery · 15
 

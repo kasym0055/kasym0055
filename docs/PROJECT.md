@@ -50,6 +50,8 @@ Next step: attach public verification links for the remaining 51 Coursera course
 
 ### Skills backed by project work
 
+The user also named Supabase, Cloudflare and Firebase for the toolkit. The profile lists them as platforms they have used.
+
 The user requested additional skills they have used. The toolkit now links to their Android Views/XML and state restoration in Playlist Maker (`0166548be2e7`), Ktor and Keystore-backed token storage in HackAtlas (`e9204c7fadda`), Vitest integration tests for the Tavily client in the Next.js locus project (`0b53f165f5f4`), and Gradle/PowerShell packaging in FocusDuo (`95e36d7e2c06`). GitHub attributes all four commits to `kasym0055`. The Forte Cash Audit team section also credits the user's deployment work with Tailscale Funnel.
 
 ### Profile simplification · 2026-11-04

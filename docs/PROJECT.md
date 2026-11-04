@@ -48,6 +48,10 @@ Repository language statistics are evidence of technology use in projects, not p
 
 Next step: attach public verification links for the remaining 51 Coursera courses when supplied. Do not replace them with private dashboard or email tracking URLs.
 
+### Skills backed by project work
+
+The user requested additional skills they have used. The toolkit now links to their Android Views/XML and state restoration in Playlist Maker (`0166548be2e7`), Ktor and Keystore-backed token storage in HackAtlas (`e9204c7fadda`), Vitest integration tests for the Tavily client in the Next.js locus project (`0b53f165f5f4`), and Gradle/PowerShell packaging in FocusDuo (`95e36d7e2c06`). GitHub attributes all four commits to `kasym0055`. The Forte Cash Audit team section also credits the user's deployment work with Tailscale Funnel.
+
 ### Profile simplification · 2026-11-04
 
 Follow-up: the user asked for a little more creativity within the natural style. The profile now shows a demo room from FocusDuo, an expandable HackAtlas calendar, and Kasymbek's commit for the Windows installer. The two images come from the project repositories. Exact source revisions are recorded in [asset attribution](../assets/ATTRIBUTION.md).

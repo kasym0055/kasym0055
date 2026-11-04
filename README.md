@@ -27,6 +27,11 @@ I worked on the desktop app and put together its Windows installer. [Source code
 
 I work with Kotlin, Java and Compose on Android and desktop. For web projects I use TypeScript, JavaScript, HTML and CSS, often with React. For APIs I use Python and FastAPI.
 
+- **Android Views and XML.** In [Playlist Maker's search screen](https://github.com/kasym0055/Playlist_Maker2/blob/0166548be2e7274dbdeacdee88231f29fcab83d7/app/src/main/java/com/example/playlist_maker2/SearchActivity.kt), I saved the search text and restored it when Android recreated the activity.
+- **Ktor and Android Keystore.** I wrote the [HackAtlas session client](https://github.com/KDvibers/HackAtlas/commit/e9204c7fadda79991f8e171c7ae8167d822978df) with Ktor. On Android, it encrypts the saved token with a key from the Keystore.
+- **Integration testing.** In my Next.js project, I wrote [Vitest tests for the Tavily search client](https://github.com/kasym0055/locus-hackathon/blob/0b53f165f5f4ebf3e8dc16b50930785544bc7091/tests/integration/tavily.test.ts) to check what happens when a request times out, gets cancelled or returns invalid data.
+- **Packaging and deployment.** I used Gradle and PowerShell to [build the FocusDuo Windows installer](https://github.com/KDvibers/FocusDuo/commit/95e36d7e2c066152e538a72d0bb8f1501a556ece), and Tailscale Funnel to give the judges access to our [Forte Cash Audit demo](https://github.com/KDvibers/forte-cash-audit#team).
+
 ## Hackathons and courses
 
 I took part in **HackAlem AI** in Astana on November 1, 2026. Here's my [participation certificate (PDF)](certificates/hackalem-ai-2026-kasymbek-talasbek.pdf).

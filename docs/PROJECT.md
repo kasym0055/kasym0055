@@ -8,7 +8,7 @@ Create a distinctive, professional GitHub profile inspired by the user's two scr
 
 ## Confirmed decisions
 
-- Current direction (2026-11-04): a plain English profile in GitHub's native typography, with no hero or decorative cards. This supersedes the original dark portfolio with a blue accent.
+- Current direction (2026-11-04): use English, GitHub's native typography and real application screenshots. The FocusDuo demo is visible in the project story and the HackAtlas calendar opens on demand.
 - English was proposed as the profile language alongside that selection.
 - LinkedIn supplied by the user: https://www.linkedin.com/in/kasymbek-talasbek-7ba212378/
 - Include projects from the user's KDvibers organization.
@@ -49,6 +49,8 @@ Repository language statistics are evidence of technology use in projects, not p
 Next step: attach public verification links for the remaining 51 Coursera courses when supplied. Do not replace them with private dashboard or email tracking URLs.
 
 ### Profile simplification · 2026-11-04
+
+Follow-up: the user asked for a little more creativity within the natural style. The profile now shows a demo room from FocusDuo, an expandable HackAtlas calendar, and Kasymbek's commit for the Windows installer. The two images come from the project repositories. Exact source revisions are recorded in [asset attribution](../assets/ATTRIBUTION.md).
 
 The user asked to remove the illustrated studio banner and make the profile sound more natural. The main README now starts with the developer's name, a short introduction and a link to the Windows release. The three KDvibers projects are described in first person, with specific contributions and teammate credit. The toolkit is plain text and still includes Java. The credentials section links to the HackAlem PDF, the complete Coursera list and the verified Wiley credential. LinkedIn remains a plain link. Certificate details and the original Wiley preview live in the catalogue. The studio banner file is removed; the other artwork is no longer displayed in the profile.
 
